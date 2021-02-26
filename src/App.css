@@ -1,0 +1,13 @@
+* {
+  font-family: "Ubuntu Mono", monospace;
+}
+.App {
+  text-align: center;
+}
+.container{
+  backdrop-filter: blur(30px);
+  z-index: 1;
+  background-color: #d5e4de;
+
+  /* background: linear-gradient(top to bottom rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1)); */
+}
