@@ -1,12 +1,12 @@
 import React from 'react';
 import sample from '../../Images/sample.jpeg'
-
+import {Link} from 'react-router-dom';
 const Academics = () => {
     return (
         <div className='container mt-4'>
             <div className="d-flex justify-content-center">
                 <h2 className='text-primary'>Faculties</h2>
-                <button className="btn btn-primary m-2">See more</button>
+                <Link to={'/institutes'}><button className="btn btn-primary m-2">See more</button></Link>
             </div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
