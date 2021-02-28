@@ -3,11 +3,37 @@
 }
 .App {
   text-align: center;
+  background: linear-gradient(to right top, #76b9ca, #64aec0);
 }
-.container{
-  backdrop-filter: blur(30px);
+.container {
+  backdrop-filter: blur(2rem);
   z-index: 1;
-  background-color: #d5e4de;
+  border-radius: 5px;
+  border-top: 3px solid #083e4b;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.1)
+  );
+  margin-top: 20px;
+  /* background-color: #d5e4de; */
 
   /* background: linear-gradient(top to bottom rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1)); */
+}
+.card {
+  transition: all 0.5s ease;
+  margin: 30px;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.1)
+  );
+}
+.card:hover {
+  transition: all 0.5s ease;
+  transform: translateY(-15px);
+}
+
+.container .row .col .card .card-body {
+  background: lightblue;
 }

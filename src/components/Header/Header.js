@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from "../../Images/logo.png";
+import './Header.css';
 const Header = () => {
     const navStyle = {
-        backgroundColor: '#d5e4de',
+        // backgroundColor: '#d5e4de',
         fontWeight: '600',
         fontSize: '15px',
     }
@@ -32,7 +33,7 @@ const Header = () => {
                         <a className="nav-link" href="/notices">Notices</a>
                         <a className="nav-link" href="/about">About Us</a>
                         <a className="nav-link" href="/admissions">Admissions</a>
-                        <a className="nav-link" href="/gallery">Gallery</a>
+                        <a className="nav-link" href="/galleries">Gallery</a>
                         <a className="nav-link" href="/research">Research</a>
                         <a className="nav-link" href="/clubs">Clubs</a>
                         <a className="nav-link" href="/downloads">Downlodas</a>

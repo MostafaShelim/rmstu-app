@@ -3,7 +3,7 @@ import Slider from './../Slider/Slider';
 import Notice from './../Notice/Notice';
 import Departments from '../Departments/Departments';
 import Academics from '../Academics/Academics';
-import Gallery from '../Gallery/Gallery';
+import Gallery from '../GalleryHome/GalleryHome';
 const Main = () => {
     return (
         <div>
