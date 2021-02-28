@@ -1,9 +1,11 @@
 import React from 'react';
+import SingleAcademy from '../SingleAcademy/SingleAcademy';
 
 const AcademicDetail = () => {
     return (
-        <div>
-            <h2>this is academic_detail</h2>
+        <div className = "container">
+            <SingleAcademy></SingleAcademy>
+            <SingleAcademy></SingleAcademy>
         </div>
     );
 };

@@ -1,9 +1,12 @@
 import React from 'react';
+import SingleDepartment from '../SingleDepartment/SingleDepartment';
 
 const DepartmentsDetail = () => {
     return (
-        <div>
-            <h2>This is departments details</h2>
+        <div className = 'container'>
+            <SingleDepartment></SingleDepartment>
+            <SingleDepartment></SingleDepartment>
+            <SingleDepartment></SingleDepartment>
         </div>
     );
 };
